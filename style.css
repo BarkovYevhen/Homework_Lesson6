@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.navigation {
+  width: 1230px;
+  height: 80px;
+  background: #60c1bd;
+  border: 2px solid #60c1bd;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 25px 100px 0px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-top: 27px;
+  margin-left: 32px;
+}
+
+.menu {
+  margin-left: 460px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu li {
+  list-style: none;
+  position: relative;
+}
+
+.menu_list {
+  display: flex;
+  padding-top: 34px;
+}
+.menu_link,
+.sub-menu_link,
+.sub_sub-menu_link {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #284854;
+}
+
+.menu_list > li {
+  margin-right: 90px;
+}
+
+.menu_list > li:hover .sub-menu_list {
+  display: block;
+}
+
+.sub-menu_list {
+  display: none;
+  text-align: left;
+  min-width: 300px;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  padding-top: 20px;
+}
+
+.sub-menu_list > li {
+  background-color: #f4f6f0;
+  display: inline-block;
+  padding: 5px 50px 5px 5px;
+}
+
+.sub-menu_list > li:hover {
+  background-color: #60c1bd;
+}
+
+.sub-menu_list > li:hover .sub_sub-menu_list {
+  display: block;
+}
+
+.sub_sub-menu_list {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  padding-left: 0px;
+  min-width: 300px;
+}
+
+.sub_sub-menu_list > li {
+  background-color: #f4f6f0;
+  display: inline-block;
+  padding: 5px 50px 5px 5px;
+}
+
+.sub_sub-menu_list > li:hover {
+  background-color: #60c1bd;
+}
+
+.menu_login {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  padding: 2px 30px;
+}
+
+header {
+  background: #284854;
+  /* width: 100%; */
+  height: 800px;
+  padding-top: 0;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 102px;
+  color: #8bc441;
+  padding-top: 120px;
+  padding-left: 180px;
+  text-align: left;
+}
+
+.heading_text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: left;
+  margin-left: 180px;
+  padding-top: 60px;
+}
+
+.img1 {
+  float: right;
+  padding-top: 165px;
+  padding-right: 186px;
+}
+
+.mission {
+  background: #f4f6f0;
+}
+
+.sounds {
+  background: #8bc441;
+}
+
+.Veterinarians,
+.Hospitals {
+  background: #f4f6f0;
+  border-radius: 4px;
+  width: 500px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  top: -80px;
+}
+.Veterinarians {
+  margin-right: 80px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 43px;
+  color: #8bc441;
+  padding-top: 50px;
+  padding-left: 180px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.block_text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #60c1bd;
+  text-align: left;
+  /* padding-top: 100px; */
+  padding-left: 180px;
+}
+
+.img2 {
+  float: left;
+  padding-top: 45px;
+  padding-left: 30px;
+}
+
+.content__sub__head {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #60c1bd;
+  height: 30px;
+  margin-top: 174px;
+}
+
+.content__head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 64px;
+  text-align: center;
+  color: #284854;
+}
+
+.content__img,
+.content__sub {
+  display: inline-block;
+  text-align: left;
+}
+
+.content__sub {
+  width: 500px;
+  margin-bottom: 85px;
+}
+
+.content__sub__head-small {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #798b56;
+  padding-bottom: 10px;
+}
+
+.content__sub__head-big {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #8bc441;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.content__sub__text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #284854;
+}
+.sub__left {
+  margin-right: 175px;
+}
+
+.img__left__first {
+  margin: 110px 130px 0px 0px;
+}
+
+.img__right__second {
+  margin-top: 80px 0px 0px 175px;
+}
+
+.img__left__third {
+  margin: 80px 130px 0px 0px;
+}
+
+.mission__img,
+.mission__content {
+  display: inline-block;
+}
+
+.mission__img {
+  margin-top: 80px;
+  margin-bottom: 135px;
+}
+
+.mission__content {
+  width: 500px;
+  text-align: left;
+  margin: 80px 0px 0px 120px;
+}
+
+.mission__head-small {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #60c1bd;
+  margin-bottom: 5px;
+}
+
+.mission__head-big {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 64px;
+  color: #284854;
+  margin-bottom: 30px;
+}
+
+.mission__content__text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #284854;
+  margin-bottom: 60px;
+}
+
+.mission_content_button {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 8px 4px;
+  border: #60c1bd solid 2px;
+  color: #60c1bd;
+  margin-left: 40px;
+}
+
+.links {
+  background: #8bc441;
+  height: 440px;
+}
+
+.links__img,
+.links__content {
+  display: inline-block;
+  text-align: left;
+}
+
+.links__img {
+  margin: 90px 165px 90px 0px;
+}
+
+.links__comtemt__head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 64px;
+  width: 520px;
+  color: #ffffff;
+  padding-top: 80px;
+}
+
+.links__content__link-link {
+  text-decoration: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.links__content__link {
+  display: inline-block;
+  width: 240px;
+  margin: 60px 130px 85px 0px;
+}
+
+.links_content {
+  margin: 85px 0px 85px 165px;
+}
+
+footer {
+  background: #e5e5e5;
+  text-align: left;
+  padding-left: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer div {
+  display: inline-block;
+  text-align: left;
+}
+
+footer li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.footer__head {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #284854;
+}
+
+.footer__veterinarians__ul,
+.footer__hospitals__ul,
+.footer__contacts__ul {
+  margin-top: 25px;
+}
+
+.footer__veterinarians__a,
+.footer__hospitals__a {
+  text-decoration: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #60c1bd;
+}
+
+.footer__veterinarians {
+  margin-right: 140px;
+  margin-top: 120px;
+}
+
+.footer__hospitals {
+  margin-right: 100px;
+}
+
+.footer__contacts__a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #60c1bd;
+  padding: 5px 0px;
+}
+
+.footer__contacts {
+  margin-left: 430px;
+}
+
+.footer__links {
+  margin: 70px 0px 40px 0px;
+  text-align: left;
+}
+
+.footer__links__ul {
+  display: flex;
+}
+
+.footer__links__a {
+  text-align: left;
+  margin-right: 40px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #60c1bd;
+}
+
+.footer__copiwright {
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #284854;
+}
+
+.footer__img {
+  z-index: 1;
+  margin-top: -160px;
+}
+
+.clear {
+  clear: both;
+}
